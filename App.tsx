@@ -69,7 +69,7 @@ const Layout: React.FC = () => {
 
     return (
         <div className="relative mx-auto h-screen max-w-md flex flex-col bg-white border-x border-slate-200">
-            <main className="flex-grow overflow-y-auto relative">
+            <main className="flex-grow overflow-y-auto relative no-scrollbar">
               <AnimatedRoutes />
             </main>
             {showNav && <BottomNav />}
